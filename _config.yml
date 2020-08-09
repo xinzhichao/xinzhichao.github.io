@@ -1,11 +1,11 @@
 # Basic
 title: 辛志超同学
 subtitle: 芙蓉姐姐她七弟的博客
-welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
+#welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
 description: 奉芙蓉姐姐的命令，记录啥也学不会的学习生活.
 creator: <a href="http://onev.cat">@onevcat</a>
 
-url: "https://xinzhichao.github.io/#blog"
+url: "https://xinzhichao.github.io"
 
 permalink: /:year/:month/:title/
 
