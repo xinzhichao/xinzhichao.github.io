@@ -109,13 +109,13 @@ defaults:
       path: ""          # An empty string here means all files in the project
       type: posts
     values:
-      layout: post
+      layout: 文章
       comments: true    # Enable comments in posts.
       toc: true         # Display TOC column in posts.
-      location: Post
+      location: 文章
       breadcrumb:
         -
-          label: Posts
+          label: 文章
           url: /
   -
     scope:
@@ -126,8 +126,8 @@ defaults:
     scope:
       path: tags
     values:
-      tab_active: Tags
-      location: Tag
+      tab_active: 标签
+      location: 标签
       breadcrumb:
         -
           label: Home
