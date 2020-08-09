@@ -7,10 +7,10 @@
 ##### 演讲与分享
 
 
-[//]- [Upgrading to Progressive Web Apps][9] · [JSConf CN 上海 2017](http://2017.jsconf.cn/)
-[//]- The State of Progressive Web App · GDG IO Redux 北京 2017
-[//]- 炒冷饭 · PWA 到底是个什么玩意？· Baidu HQ 北京 2017
-[//]- [JavaScript 模块化七日谈][1] · 2015
+
+- 努力中～
+
+
 
 [1]: //huangxuan.me/2015/07/09/js-module-7day/
 [2]: //huangxuan.me/2015/12/28/css-sucks-2015/
