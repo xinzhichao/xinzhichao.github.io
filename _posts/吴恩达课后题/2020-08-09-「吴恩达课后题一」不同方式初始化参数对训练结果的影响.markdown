@@ -1,14 +1,14 @@
 ---
 layout:     post
-title:      "「知乎」对中国用户而言，Pure Android 是否比 MIUI 或 Flyme 体验更好？"
+title:      "「吴恩达课后题一」不同方式初始化参数对训练结果的影响"
 subtitle:   ""
-date:       2014-09-04 12:00:00
-author:     "Hux"
+date:       2020-08-09 21:02:01
+author:     "辛志超同学"
 header-img: "img/post-bg-android.jpg"
 tags:
-    - 知乎
-    - 产品
-    - UX/UI
+    - 深度学习
+    - 参数初始化
+
 ---
 
 > 这篇文章转载自[我在知乎上的回答](http://www.zhihu.com/question/25104721/answer/30108886)
