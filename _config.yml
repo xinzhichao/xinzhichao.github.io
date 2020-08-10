@@ -34,13 +34,13 @@ social:
   email: xinzhichaotongxue@163.com            # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://weibo.com/xinzhichaotongxue      # change to your twitter homepage
+    #- https://weibo.com/xinzhichaotongxue      # change to your twitter homepage
     - https://github.com/xinzhichao       # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
+     - https://weibo.com/xinzhichaotongxue
     # - https://www.linkedin.com/in/username
 
-google_site_verification: google_meta_tag_verification # change to your verification string
+#google_site_verification: google_meta_tag_verification # change to your verification string
 
 #--------------------------
 
