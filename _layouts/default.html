@@ -1,63 +1,23 @@
----
-layout: compress
-# Default layout
-# v2.0
-# https://github.com/cotes2020/jekyll-theme-chirpy
-# © 2017-2019 Cotes Chung
-# MIT Licensed
----
-
 <!DOCTYPE html>
+<html lang="en">
 
-{% if site.lang %}
-  {% assign lang = site.lang | split: "_" | first %}
-{% else %}
-  {% assign lang = 'en' %}
-{% endif %}
+{% include head.html %}
 
-{% capture prefer_mode %}
-  {% if site.theme_mode != "dual" %}
-    mode="{{ site.theme_mode }}"
-  {% endif %}
-{% endcapture %}
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
 
-<html lang="{{ lang }}" {{ prefer_mode }} >
+    {% include nav.html %}
+    {% include search.html %}
 
-  {% include head.html %}
+    {{ content }}
 
-  <body data-spy="scroll" data-target="#toc">
+    {% include footer.html %}
 
-    <div id="sidebar" class="d-flex flex-column">
-      {% include sidebar.html %}
-    </div>
 
-    {% include topbar.html %}
+<!-- Image to hack wechat -->
+<img src="/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
 
-    <div id="main-wrapper">
-      <div id="main">
-
-        {% include fixlinenos.html content=content %}
-
-        {% include footer.html %}
-
-      </div>
-
-      {% include search-results.html %}
-
-    </div> <!-- #main-wrapper -->
-
-    <div id="mask"></div>
-
-    <a id="back-to-top" href="#" class="btn btn-lg btn-box-shadow" role="button">
-      <i class="fas fa-angle-up"></i>
-    </a>
-
-    {% if jekyll.environment == 'production' %}
-      {% include google-analytics.html %}
-    {% endif %}
-
-    {% include search-loader.html %}
-
-  </body>
+</body>
 
 </html>
